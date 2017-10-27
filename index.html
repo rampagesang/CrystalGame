@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href= "assets/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+
+</head>
+<body>
+	<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<h1>Crystals Collector!</h1>
+		</div>
+	</div><br><br>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="unorderedList">
+				<ul>
+					<li>You will be given a random number at the start of the game.</li>
+					<li> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+					<li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+					<li>The value of each crystal is hidden from you until you click on it.</li>
+					<li>Each time when the game starts, the game will change the values of each crystal</li>
+				</ul>
+			</div>
+		</div>
+	</div><br><br>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="row clearfix">
+				<div class="col-md-6 column">
+					<div><h2>MATCH <strong><h2 id="match"></strong></h2></div>
+				</div>
+				<div class="col-md-6 column">
+					<div><h2>YOUR TOTAL SCORE:</h2><span id="totalScore"></span></div>
+				</div>
+			</div>
+		</div>
+	</div><br><br><br>
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="row clearfix">
+					<div class="col-md-3 column">
+							<button id="crystal1" class="closing">
+								<img src="assets/images/crystal1.png" alt="Blue" height="100" class="image1" width="100">
+								<div class="text"></div>
+							</button>
+						</div>
+						<div class="col-md-3 column">
+							<button id="crystal2" class="closing">
+								<img src="assets/images/crystal2.png" alt="Red" height="100" class="image2" width="100">
+								<div class="text"></div>
+							</button>
+						</div>
+						<div class="col-md-3 column">
+							<button id="crystal3" class="closing">
+								<img src="assets/images/crystal3.png" alt="Yellow" height="100" class="image3" width="100">
+								<div class="text"></div>
+							</button>
+						</div>
+						<div class="col-md-3 column">
+							<button id="crystal4" class="closing">
+								<img src="assets/images/crystal4.png" alt="Purple" height="100" class="image4" width="100">
+								<div class="text"></div>
+							</button>
+						
+					</div>
+				</div>
+			</div>
+		</div><br><br><br>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<h3>WINS:<span id="wins"></span></h3>
+
+					<h3>LOSSES:<span id="losses"></span></h3>
+
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
